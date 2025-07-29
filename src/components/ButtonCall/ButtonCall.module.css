@@ -1,0 +1,51 @@
+.call_smooth {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.call_smooth:hover {
+  transform: scale(1.08) translateY(-4px);
+  box-shadow: 0 8px 32px 0 rgba(34, 197, 94, 0.35),
+    0 4px 16px rgba(0, 0, 0, 0.18);
+}
+.call_bell {
+  animation: call-bell-shake 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  transform-origin: 80% 20%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes call-bell-shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-18deg);
+  }
+  20% {
+    transform: rotate(16deg);
+  }
+  30% {
+    transform: rotate(-14deg);
+  }
+  40% {
+    transform: rotate(12deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(8deg);
+  }
+  70% {
+    transform: rotate(-6deg);
+  }
+  80% {
+    transform: rotate(4deg);
+  }
+  90% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
