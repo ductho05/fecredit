@@ -6,7 +6,7 @@ class HomeHeroData {
   static readonly sloganName = "Tài chính vững vàng bắt đầu từ sự đơn giản";
 
   // hero content 1
-  static readonly heroContent1 = "đồng hành cùng bạnđồng hành cùng bạn";
+  static readonly heroContent1 = "đồng hành cùng bạn";
 
   // hero content 2
   static readonly heroContent2 =
