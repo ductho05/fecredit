@@ -6,7 +6,7 @@ class LoyalCustomerData {
   static readonly object1 = "Khách hàng đã từng trả góp";
 
   // object 2
-  static readonly object2 = "Ưu đãi: Không có bất kì thu phí nào";
+  static readonly object2 = "Khách cũ chỉ cần căn cước";
 
   // voucher
   static readonly voucher = "Ưu đãi: Không có bất kì thu phí nào";
